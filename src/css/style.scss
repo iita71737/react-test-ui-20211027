@@ -1,0 +1,50 @@
+.form-btn-set {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-section {
+  min-width: 376px;
+}
+
+.top-section-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-width: 180px;
+  cursor: pointer;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:hover,
+  &:focus {
+    border: 2px solid rgb(17, 226, 233);
+  }
+
+  &:active,
+  &:focus {
+    .icon-tick {
+      display: inline;
+      position: absolute;
+      right: -8%;
+      bottom: -8%;
+      //border: 1px red solid;
+    }
+  }
+}
+
+.icon-tick {
+  display: none;
+}
+
+// @media screen and (min-width: 600px) {
+// }
