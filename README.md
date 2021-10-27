@@ -1,4 +1,4 @@
-![Demo](https://raw.githubusercontent.com/iita71737/react-test-ui-20211027/3d60a5a678c16514c9588cfb7f2c8ff8e8ef599b/src/assets/images/ui-test.png)
+![Demo](https://github.com/iita71737/react-test-ui-20211027/blob/master/src/assets/images/ui-test.png)
 
 # Getting Started with Create React App
 
